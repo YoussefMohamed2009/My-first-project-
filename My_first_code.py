@@ -1,11 +1,7 @@
 name = "Youssef"
 age = 16
-goal = "KSA 2028"
-cy = 2026
-ty = 2028
-left = ty - cy
-fa = age + left
-print(f"I'm {name} {age}")
-print(f"Goal {goal}")
-print(f"Left {left}")
-print(f"Age then {fa}")
+major = input("نفسك تدخل تخصص ايه في السعودية؟ ")
+
+print(f"واااو {major} تخصص جامد!")
+print(f"{name} عنده {age} سنة وهدفه {major} في KSA 2028")
+print("هتوصل ان شاء الله!")
